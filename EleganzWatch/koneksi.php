@@ -1,5 +1,5 @@
 <?php
-    $conn = mysqli_connect("localhost", "root", "", "EleganzWatch");
+    $conn = mysqli_connect("sql206.epizy.com", "epiz_33124814", "2gMYFst2or", "epiz_33124814_eleganzwatch");
 
     if (!$conn) {
         die("Gagal terhubung ke database". mysqli_connect_eror());
